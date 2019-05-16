@@ -22,3 +22,4 @@ end
 
 fido = Dog.new("fido")
 #fido.all
+binding.pry
