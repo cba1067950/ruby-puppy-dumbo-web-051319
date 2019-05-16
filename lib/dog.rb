@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog 
   @@all = []
   
@@ -21,5 +23,4 @@ class Dog
 end 
 
 fido = Dog.new("fido")
-#fido.all
-binding.pry
+fido.all
