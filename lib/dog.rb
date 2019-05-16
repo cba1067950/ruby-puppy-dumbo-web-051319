@@ -7,6 +7,7 @@ class Dog
   end
   
   def self.all 
+    binding.pry
     puts @@all
   end 
   
@@ -18,3 +19,6 @@ class Dog
     @name
   end 
 end 
+
+fido = Dog.new("fido")
+fido.all
