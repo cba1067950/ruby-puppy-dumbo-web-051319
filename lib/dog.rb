@@ -15,4 +15,8 @@ class Dog
   def self.clear_all 
     @@all.clear
   end
+  
+  def name
+    
+  end 
 end 
