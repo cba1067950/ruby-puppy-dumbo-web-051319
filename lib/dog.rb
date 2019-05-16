@@ -8,6 +8,7 @@ class Dog
   
   def self.all 
     @@all.each do |doggo|
+      binding.pry
       puts doggo
     end
   end 
