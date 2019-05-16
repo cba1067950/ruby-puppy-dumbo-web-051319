@@ -10,7 +10,7 @@ class Dog
   
   def self.all 
     binding.pry
-    @@all.each {|doggo| puts doggo}
+    @@all.each {|doggo| puts doggo.name}
   end 
   
   def self.clear_all 
