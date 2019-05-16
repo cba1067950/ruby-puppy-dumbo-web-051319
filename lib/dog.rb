@@ -7,11 +7,7 @@ class Dog
   end
   
   def self.all 
-    binding.pry
-    @@all.each do |doggo|
-      binding.pry
-      puts doggo
-    end
+    puts @@all
   end 
   
   def self.clear_all 
