@@ -9,7 +9,6 @@ class Dog
   end
   
   def self.all 
-    binding.pry
     @@all.each {|doggo| puts doggo.name}
   end 
   
